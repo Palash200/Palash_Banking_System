@@ -1,0 +1,153 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #919191;
+}
+
+/* NAVBAR */
+.navbar-light{
+    background-color: #ffffff!important;
+}
+
+.nav-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #000000!important;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #000000!important;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.nav-link:hover{
+    background-color: #919191!important;
+    text-decoration: none;
+}
+
+.nav-brand:hover{
+    text-decoration: none;
+}
+
+/* Customer Page CSS Styling*/
+
+.customer-head{
+    background-color: rgb(10,30,63);
+    width: 100%;
+    position: relative;
+}
+
+.c-title{
+    margin: 20px auto;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Table CSS Styling*/
+table{
+    border-collapse: collapse;
+    margin: 30px auto;
+    font-size: 1em;
+    font-family: 'arial',sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.t-title{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'arial',sans-serif;
+}
+
+thead tr {
+    background-color: rgb(10,30,63);
+    color: #ffffff;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 12px 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #000000;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #95f0e8;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(18, 53, 110);
+}
+
+@media(max-width: 700px){
+    table{
+        font-size: 1.5em;
+    }
+}
+
+
+/* Transfer Page CSS Styling */
+
+form{
+    display: block;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+select{
+    padding : 10px 10px;
+    margin : 10px 10px;
+}
+
+label{
+    margin: 10px 10px;
+}
+
+input{
+    margin : 10px 10px;
+}
+
+.submit{
+    padding : 5px 5px; 
+    cursor: pointer;
+}
+
+/* Handler Page CSS Styling */
+
+.transaction-details{
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.h-row{
+    margin: 40px 60% 0 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.h-button{
+    display : inline-block; 
+    text-decoration: none;
+    text-align : center; 
+    margin : auto auto 20px auto;
+    padding: 12px 34px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(10,30,63);
+}
+
+.h-button:hover{
+    color: white;
+    text-decoration: none;
+}
+

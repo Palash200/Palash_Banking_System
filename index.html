@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!-- CSS Linking File -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+</head>
+
+<body onload="loader()">
+
+  <!-- Loader -->
+  <div id="loading"></div>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="./index.html">Bank of Sparks</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="./customers.php">Customers</a>
+        <a class="nav-item nav-link" href="./transactions.php">Transaction</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Body -->
+  <div class="container-fluid hero-content">
+    <div class="row align-items-center">
+      <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
+        <h1>Money Transfer made simple</h1>
+        <h2>Welcome</h2>
+        <br>
+        <br>
+        <a class="get-started" href="./customers.php">Get Started</a>
+      </div>
+      <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+          <img class="hero-img" src="https://www.fremontbank.com/FremontBank/media/Images/Home/meet-fremont-bank.svg">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <hr>
+    <div class="row text-center">
+      <div class="col-md-6">
+        <p>Made by Palash Wani</p>
+      </div>
+      <div class="col-md-6 text-center">
+          <ul class="social-icons">
+            Contact Us At:
+            <li><a target="_blank" class="github" href="https://github.com/Palash200"><i class="fab fa-github fa-2x"></i></a></li>
+            
+            <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/palash-wani/"><i class="fab fa-linkedin fa-2x"></i></a></li>   
+          </ul>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JS for Loader -->
+  <script>
+    var preloader = document.getElementById("loading");
+    function loader(){
+      preloader.style.display = 'none';
+    }
+  </script>
+
+  
+  <!-- AOS -->
+  <script>
+    AOS.init({
+      duration: 500,
+    });
+  </script>
+  
+  <!-- JS Linking files-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+</body>
+
